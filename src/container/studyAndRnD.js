@@ -2,12 +2,12 @@ import React from "react";
 import { Tag } from "antd";
 import { TitleBlock } from "../components";
 
-const skill = ["Python", "JavaScript", "AWS", "Django", "Flask", "Node js", "React", "Redux", "Angular", "Numpy", "Pandas", "Redis", "Design Pattern", "ELK", "Postgres", "Nginx", "Gunicorn", "Docker", "CI/CD"]
+const skill = ["Machine Learning", "Deep Learning", "Chatbot", "NLP", " Data analysis", "Data Visualisation"]
 
-function Skills() {
+function StudyAndRnD() {
   return (
     <div className="skills mb-30">
-      <TitleBlock title="Skills" />
+      <TitleBlock title="Study and RnD" />
       {skill.map(skill => {
         return (
           <Tag key={skill} className="skill-tag">{skill}</Tag>
@@ -17,4 +17,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default StudyAndRnD;

@@ -2,19 +2,18 @@ import React from "react";
 import { Timeline, List, Icon } from "antd";
 import { TitleBlock } from "../components";
 const kutumbitaData = [
-  "Pixel perfect psd to React component conversion.",
-  "Using data from Rest api & manage local state with Redux.",
-  "Fixing any UI related bug in admin dashboard."
+  "Play an important role as a Full Stack Developer.",
+  "Provide end to end solution architecture, code reviewer, clean code and best practice instructor.",
+  "Managing and Maintaining full responsibilities of some micro services."
 ];
-const easyclapData = [
-  "Pixel perfect sketch to React component conversion.",
-  "Using data from Rest api.",
-  "Fixing any design related bug in existing project."
+const InterconnectionData = [
+  "Developed and wrote end to end solutions with test according to instructions",
+  "Trained up team on some technologies"
 ];
-const spondonData = [
-  "Create premium quality Html5 Template.",
-  "Pixel perfect psd to html conversion.",
-  "wordpress theme customization."
+const oasisData = [
+  "Wrote front end code",
+  "trained up some team on front end development and python programming",
+  "Discussed and executed marketing plan with team."
 ];
 
 function SingleExprience(props) {
@@ -31,7 +30,7 @@ function SingleExprience(props) {
         </a>
         <h4 className="year">{props.year}</h4>
       </div>
-      <h4>FrontEnd Developer</h4>
+      <h4>Software Engineer</h4>
       <div className="responsiblities">
         <List
           size="small"
@@ -53,28 +52,28 @@ function WorkExprience() {
       
       <TitleBlock title="Work Exprience" />
       <Timeline>
-        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
+        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience" />}>
           <SingleExprience
             link="https://kutumbita.com/"
             companyName="Kutumbita"
-            year="Feb 2019 - Present"
+            year="OCT 2018 - Present"
             data={kutumbitaData}
           />
         </Timeline.Item>
-        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
+        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience" />}>
           <SingleExprience
-            link="https://www.easyclap.com/"
-            companyName="Easyclap"
-            year="Dec 2017 - Jan 2019"
-            data={easyclapData}
+            link="http://www.interconnectionbd.com/"
+            companyName="Interconnection LTD"
+            year="JUL 2017 - JUN 2018"
+            data={InterconnectionData}
           />
         </Timeline.Item>
-        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
+        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience" />}>
           <SingleExprience
-            link="http://spondonit.com/"
-            companyName="Spondon It"
-            year="Sep 2016 - Nov 2017"
-            data={spondonData}
+            link="https://www.facebook.com/oasisitbd/"
+            companyName="Oasis IT"
+            year="OCT 2016 - JUN 2017"
+            data={oasisData}
           />
         </Timeline.Item>
       </Timeline>

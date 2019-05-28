@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Summary, WorkExprience, Projects, Education, Skills } from "./";
+import { Summary, WorkExprience, Projects, Education, Skills, StudyAndRnD } from "./";
 
 export class MainContainer extends Component {
   render() {
@@ -7,9 +7,10 @@ export class MainContainer extends Component {
       <div className="main-content">
         <div className="main-content-body">
           <Summary />
-          <Skills />
           <WorkExprience />
           <Projects />
+          <Skills />
+          <StudyAndRnD />
           <Education />
           
         </div>

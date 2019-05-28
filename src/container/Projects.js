@@ -11,7 +11,7 @@ function SingleProject(props) {
       </div>
       <div className="desc">{props.description}</div>
       <div className="contribution">
-        <b>Contribution :</b> {props.contribution}
+        {/* <b>Contribution :</b> {props.contribution} */}
       </div>
     </a>
   );
@@ -21,87 +21,53 @@ function Projects() {
     <div className="worker-exprience mb-30">
       <TitleBlock title="Projects" />
       <Row gutter={16}>
+  
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            name="EasyClap"
-            logo="assets/images/easyclap.jpg"
-            link="https://www.easyclap.com/"
-            description="Sass platform designed for art lovers and professionals"
-            contribution="Psd to html conversion with DOM manipulation"
-          />
-        </Col>
-        <Col xs={24} md={12} xl={8} lg={12}>
-          <SingleProject
-            name="Kutumbita"
+            name="Kinship AI"
             logo="assets/images/kutumbita.png"
             link="https://kutumbita.com/"
-            description="Sass platform for garments worker and manager"
-            contribution="Work with react view layer and and get data from rest api"
+            description="Micro service architecture, Enterprise level worker management, Connect with them, Surveys, Issues and HR services with Chatbot."
+            // contribution="Managing and Maintaining full responsibilities of some micro services."
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            // name="Pixel Store"
-            logo="assets/images/pixelstore.png"
-            link="http://salmanrahman.com/projects/pixel-store/"
-            description="Pixel store is a multipurpose ecommerce template"
-            contribution="Psd to html conversion with DOM manipulation"
+            name="OMIS"
+            logo="assets/images/omis.png"
+            link="https://www.facebook.com/omis.bd/?__tn__=kCH-R&eid=ARAC1ey6_O_xkPKw4IbjlBbWGIaUaevIulkek7kNVWefO-Y0YyQZ1-h5ycoU0Kls4yURd-EDjwb26rS6&hc_ref=ARRmiqHUYdFE7DIX637db2B8MuIe5SY5JYUiBf8Yvyl_CAy-9iYXpKZGYhetPckL82o&fref=nf&__xts__[0]=68.ARAmvWiah3DkYCjPMZsTRXNDh63cBAAgEhXvr3B4Sz4p_X2Xr8Eg2B80c9RRjPd_JZedlTDf0-THNjfEIroP1HP_vueywne-c2pEpOOX5yC_jHWOp_GxFrGpMqzlwpn19QcjsNivJ4Pn98-TGuuw3vmiomOvhI7fYwdULx-5OvvvhbAdmQCAbHd9yz9hLFbfuJkuJ3wH8rALmj1hqfLFs20pL1bqagZA5ZutW390DhcDiOZn0L_eQoiNE7se-zU5Cv4WooqKOfjTvVD70VRZUcXkaVG4Lixor_0qm3BmfAWV_4lDLrxEQFVGeuh96oJ62eYtU0IdGg6-muux15PUhF1UpQ-FpGSoWwkTUekNwVSUntJ1pE2G7GLWOL5QSFO-WQJ4YOxdZxPzGth6ca-z5_k8Eoper4nQSDJV1WrsDx8Z1R6RMtnTcaj0CXZtGwzR_Ct-VYirKUGHeVn4T-FWGC8Ni1HWc9wH5AMluNCKzAc-G1giaTKzUnvqgA"
+            description="A Online Medical Information System Enterprise SASS app for Pharmacies, Diagnostic centres and Hospitals."
+            // contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            name="Educare"
-            logo="assets/images/educare.png"
-            link="http://salmanrahman.com/projects/educare/#"
-            description="Web templates for different kind of education institute"
-            contribution="Psd to html conversion with DOM manipulation"
+            // name="Assignmenthero"
+            logo="assets/images/assignmenthero.png"
+            link="https://www.assignmenthero.com/"
+            description="E-learning platform for students used in Melbourne, Australia."
+            // contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            // name="Best Book"
-            logo="assets/images/bestbook.png"
-            link="http://salmanrahman.com/projects/bestbook/"
-            description="E-book promotion landing page"
-            contribution="Psd to html conversion with DOM manipulation"
+            name="Collabhero"
+            logo="assets/images/collabhero.png"
+            link="https://www.facebook.com/collabhero/"
+            description="E-learning platform for students used in Melbourne, Australia."
+            // contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            name="Pixels"
-            logo="assets/images/pixels.png"
-            link="http://salmanrahman.com/projects/pixels/"
-            description="The best way to showcase your app"
-            contribution="Psd to html conversion with DOM manipulation"
+            name="Stack Zoom"
+            // logo="assets/images/pixels.png"
+            // link="http://salmanrahman.com/projects/pixels/"
+            description="A stack market statistics and analytics web app mainly used in European Countries."
+            // contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
-        <Col xs={24} md={12} xl={8} lg={12}>
-          <SingleProject
-            // name="Execution"
-            logo="assets/images/execution.png"
-            link="http://salmanrahman.com/projects/execution/"
-            description="Execution App Landing & Product Showcase HTML5 Template"
-            contribution="Psd to html conversion with DOM manipulation"
-          />
-        </Col>
-        <Col xs={24} md={12} xl={8} lg={12}>
-          <SingleProject
-            // name="Bicycle"
-            logo="assets/images/bicycle.png"
-            link="http://salmanrahman.com/projects/bicycle/"
-            description="Simple product Showcase"
-            contribution="Psd to html conversion with DOM manipulation"
-          />
-        </Col>
-        <Col xs={24} md={12} xl={8} lg={12}>
-          <SingleProject
-            name="Zeplin"
-            logo="assets/images/zeplin.png"
-            link="http://salmanrahman.com/projects/apexis/apexis-template/04-home-zeplin.html"
-            description="Zeplin re-design template"
-            contribution="Psd to html conversion with DOM manipulation"
-          />
-        </Col>
+       
       </Row>
     </div>
   );

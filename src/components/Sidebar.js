@@ -19,20 +19,20 @@ class Sidebar extends Component {
           <Link to="/">
             <img
               className="logo-img"
-              src="assets/images/logo.jpg"
-              alt="Salman"
+              src="assets/images/logo.png"
+              alt="Raisul"
             />
           </Link>
         </div>
         <div className="bio">
-          <h2 className="name">Salman Rahman</h2>
-          <h3 className="title">FrontEnd Developer</h3>
+          <h2 className="name">Raisul Islam</h2>
+          <h3 className="title">Software Engineer</h3>
         </div>
         <div className="btn-group">
-          <a className="contact-btn" href="https://www.linkedin.com/in/salmanbd/" target="_blank" rel="noopener noreferrer">
+          <a className="contact-btn" href="https://www.linkedin.com/in/raisul-islam-5729a8103/" target="_blank" rel="noopener noreferrer">
             <Icon type="linkedin" />
           </a>
-          <a className="contact-btn" href="https://github.com/salmanbd100" target="_blank" rel="noopener noreferrer">
+          <a className="contact-btn" href="https://github.com/raisulru" target="_blank" rel="noopener noreferrer">
             <Icon type="github" />
           </a>
         </div>
@@ -52,7 +52,7 @@ class Sidebar extends Component {
         </Menu> */}
         <div className="contact">
         <p>
-            Sector#8, Uttara, Dhaka. <br /> 01911921394 <br/> salman.bd100@gmail.com
+            Khilkhet, Dhaka <br /> 01723864330 <br/> raisulru10@gmail.com
           </p>
         </div>
         
