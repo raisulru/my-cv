@@ -56,7 +56,6 @@ class Sidebar extends Component {
           </p>
         </div>
         
-        <p>© Copyright ©2019 <br/> All rights reserved |</p>
       </div>
     );
   }
