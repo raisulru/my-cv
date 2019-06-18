@@ -4,7 +4,7 @@ import { TitleBlock } from "../components";
 const kutumbitaData = [
   "Play an important role as a Full Stack Developer.",
   "Provide end to end solution architecture, code reviewer, clean code and best practice instructor.",
-  "Managing and Maintaining full responsibilities of some micro services."
+  "Managed and Maintained full responsibilities of some micro services."
 ];
 const InterconnectionData = [
   "Developed and wrote end to end solutions with test according to instructions",
