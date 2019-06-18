@@ -2,7 +2,7 @@ import React from "react";
 import { Tag } from "antd";
 import { TitleBlock } from "../components";
 
-const skill = ["Deep Learning", "ANN", "CNN", "RNN", "LSTM", "NLTK", "Chatbot", "NLP", " Data analysis", "Data Visualisation"]
+const skill = ["Deep Learning", "Classification", "Regression", "ANN", "CNN", "RNN", "LSTM", "NLTK", "Chatbot", "NLP", " Data analysis", "Data Visualisation"]
 
 function StudyAndRnD() {
   return (

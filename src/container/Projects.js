@@ -36,7 +36,7 @@ function Projects() {
             name="OMIS"
             logo="assets/images/omis.png"
             link="https://www.facebook.com/omis.bd/?__tn__=kCH-R&eid=ARAC1ey6_O_xkPKw4IbjlBbWGIaUaevIulkek7kNVWefO-Y0YyQZ1-h5ycoU0Kls4yURd-EDjwb26rS6&hc_ref=ARRmiqHUYdFE7DIX637db2B8MuIe5SY5JYUiBf8Yvyl_CAy-9iYXpKZGYhetPckL82o&fref=nf&__xts__[0]=68.ARAmvWiah3DkYCjPMZsTRXNDh63cBAAgEhXvr3B4Sz4p_X2Xr8Eg2B80c9RRjPd_JZedlTDf0-THNjfEIroP1HP_vueywne-c2pEpOOX5yC_jHWOp_GxFrGpMqzlwpn19QcjsNivJ4Pn98-TGuuw3vmiomOvhI7fYwdULx-5OvvvhbAdmQCAbHd9yz9hLFbfuJkuJ3wH8rALmj1hqfLFs20pL1bqagZA5ZutW390DhcDiOZn0L_eQoiNE7se-zU5Cv4WooqKOfjTvVD70VRZUcXkaVG4Lixor_0qm3BmfAWV_4lDLrxEQFVGeuh96oJ62eYtU0IdGg6-muux15PUhF1UpQ-FpGSoWwkTUekNwVSUntJ1pE2G7GLWOL5QSFO-WQJ4YOxdZxPzGth6ca-z5_k8Eoper4nQSDJV1WrsDx8Z1R6RMtnTcaj0CXZtGwzR_Ct-VYirKUGHeVn4T-FWGC8Ni1HWc9wH5AMluNCKzAc-G1giaTKzUnvqgA"
-            description="A Online Medical Information System Enterprise SASS app for Pharmacies, Diagnostic centres and Hospitals."
+            description="An Online Medical Information System Enterprise SASS app for Pharmacies, Diagnostic centres and Hospitals."
             // contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
@@ -45,7 +45,7 @@ function Projects() {
             // name="Assignmenthero"
             logo="assets/images/assignmenthero.png"
             link="https://www.assignmenthero.com/"
-            description="E-learning platform for students used in Melbourne, Australia."
+            description="E-learning platform for students by maintaing and manipulating assignments in cloud"
             // contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
@@ -54,7 +54,7 @@ function Projects() {
             name="Collabhero"
             logo="assets/images/collabhero.png"
             link="https://www.facebook.com/collabhero/"
-            description="E-learning platform for students used in Melbourne, Australia."
+            description="Collaborating assignments one by one, by group or self. Review, marking, comments on every assignment and there marks distribution table and analytics"
             // contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
